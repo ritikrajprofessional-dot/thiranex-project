@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="description"
+          content="Contact Alex Sharma.">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Alex Sharma</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<a href="#main-content" class="skip-link">
+    Skip to main content
+</a>
+
+<header class="site-header">
+
+    <div class="container header-container">
+
+        <a href="index.html"
+           class="logo">
+            Alex<span>.</span>
+        </a>
+
+        <button
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="main-navigation">
+            Menu
+        </button>
+
+        <nav id="main-navigation"
+             aria-label="Main navigation">
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html"
+                       aria-current="page">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main id="main-content">
+
+    <section class="page-heading">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                Let's Connect
+            </p>
+
+            <h1>
+                Contact Me
+            </h1>
+
+            <p class="lead">
+                Send me a message using the form below.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="container form-container">
+
+            <form id="contact-form"
+                  class="contact-form"
+                  novalidate>
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name *
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                        aria-describedby="name-error">
+
+                    <p id="name-error"
+                       class="error"
+                       role="alert">
+                    </p>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address *
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                        aria-describedby="email-error">
+
+                    <p id="email-error"
+                       class="error"
+                       role="alert">
+                    </p>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message *
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="7"
+                        required
+                        aria-describedby="message-error">
+                    </textarea>
+
+                    <p id="message-error"
+                       class="error"
+                       role="alert">
+                    </p>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button">
+                    Send Message
+                </button>
+
+
+                <p id="form-status"
+                   role="status"
+                   aria-live="polite">
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container footer-content">
+
+        <p>
+            © 2026 Alex Sharma.
+        </p>
+
+        <nav aria-label="Footer navigation">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+        </nav>
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- SEO -->
+    <meta name="description"
+          content="Alex Sharma's accessible personal portfolio website.">
+    <meta name="keywords"
+          content="portfolio, web developer, HTML5, CSS, JavaScript">
+    <meta name="author" content="Alex Sharma">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Alex Sharma | Web Developer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Skip link for keyboard and screen-reader users -->
+    <a href="#main-content" class="skip-link">
+        Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <div class="container header-container">
+
+            <a href="index.html"
+               class="logo"
+               aria-label="Alex Sharma Home">
+                Alex<span>.</span>
+            </a>
+
+            <button
+                class="menu-button"
+                aria-expanded="false"
+                aria-controls="main-navigation">
+                Menu
+            </button>
+
+            <!-- Navigation -->
+            <nav id="main-navigation"
+                 aria-label="Main navigation">
+
+                <ul>
+                    <li>
+                        <a href="index.html"
+                           aria-current="page">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main -->
+    <main id="main-content">
+
+        <!-- Hero -->
+        <section class="hero"
+                 aria-labelledby="hero-title">
+
+            <div class="container hero-grid">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Web Developer • Student • Problem Solver
+                    </p>
+
+                    <h1 id="hero-title">
+                        Building clean, accessible and useful
+                        experiences for the web.
+                    </h1>
+
+                    <p class="lead">
+                        I create responsive websites using semantic
+                        HTML5, modern CSS and JavaScript with
+                        accessibility in mind.
+                    </p>
+
+                    <div class="buttons">
+
+                        <a href="projects.html"
+                           class="button">
+                            View My Projects
+                        </a>
+
+                        <a href="contact.html"
+                           class="button secondary">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Aside -->
+                <aside class="profile-card"
+                       aria-label="Profile information">
+
+                    <div class="avatar"
+                         aria-hidden="true">
+                        AS
+                    </div>
+
+                    <h2>
+                        Alex Sharma
+                    </h2>
+
+                    <p>
+                        Computer Science Student
+                    </p>
+
+                    <ul>
+                        <li>HTML5 & CSS</li>
+                        <li>JavaScript</li>
+                        <li>Accessibility</li>
+                    </ul>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section class="section"
+                 aria-labelledby="skills-heading">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    What I do
+                </p>
+
+                <h2 id="skills-heading">
+                    Skills & Strengths
+                </h2>
+
+                <div class="cards">
+
+                    <article class="card">
+
+                        <h3>
+                            Semantic HTML
+                        </h3>
+
+                        <p>
+                            I use meaningful HTML5 elements to
+                            create well-structured webpages.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <h3>
+                            Responsive Design
+                        </h3>
+
+                        <p>
+                            Websites are designed to work properly
+                            on mobile, tablet and desktop screens.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <h3>
+                            Accessibility
+                        </h3>
+
+                        <p>
+                            I focus on keyboard navigation,
+                            labels, focus states and screen-reader
+                            support.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Featured Project -->
+        <section class="section light-section"
+                 aria-labelledby="featured-heading">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Selected Work
+                </p>
+
+                <h2 id="featured-heading">
+                    Featured Project
+                </h2>
+
+                <article class="featured-project">
+
+                    <span class="tag">
+                        HTML5 • Accessibility
+                    </span>
+
+                    <h3>
+                        Accessible Portfolio
+                    </h3>
+
+                    <p>
+                        A responsive multi-page portfolio built
+                        using semantic HTML5 and accessibility
+                        best practices.
+                    </p>
+
+                    <a href="projects.html">
+                        View all projects →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Alex Sharma.
+                Built with semantic HTML5.
+            </p>
+
+            <nav aria-label="Footer navigation">
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
